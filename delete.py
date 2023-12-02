@@ -2,14 +2,14 @@ import pandas as pd
 import requests
 import json
 
-braze_delete = "https://rest.iad-06.braze.com/users/delete"
+braze_delete = "https://rest.iad-05.braze.com/users/delete"
 
 delete_headers = {
     "Content-Type": "application/json",
-    "Authorization": "Bearer 5585e24b-e24d-4809-9e21-6272a70898f5"
+    "Authorization": "Bearer e425f23d-195b-411c-9a10-08696800442c"
 }
 
-df = pd.read_csv("invalid_users (1).csv")
+df = pd.read_csv("Hard Bounce Users.csv")
 # print(df.values)
 
 all_data = [x[0] for x in df.values]
