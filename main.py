@@ -7,12 +7,12 @@ braze_delete = "https://rest.iad-06.braze.com/users/delete"
 
 export_headers = {
     "Content-Type": "application/json",
-    "Authorization": "Bearer 2c324fa9-7629-4b0a-9527-7ac6e8b1e0d5"
+    "Authorization": "Bearer api_key"
 }
 
 delete_headers = {
     "Content-Type": "application/json",
-    "Authorization": "Bearer 5585e24b-e24d-4809-9e21-6272a70898f5"
+    "Authorization": "Bearer api_key"
 }
 
 df = pd.read_csv("delete_user_batch2.csv")
