@@ -6,7 +6,7 @@ braze_delete = "https://rest.iad-05.braze.com/users/delete"
 
 delete_headers = {
     "Content-Type": "application/json",
-    "Authorization": "Bearer e425f23d-195b-411c-9a10-08696800442c"
+    "Authorization": "Bearer api_key"
 }
 
 df = pd.read_csv("Hard Bounce Users.csv")
